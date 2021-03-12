@@ -13,14 +13,15 @@
 }
 .sectionAboutContainer {
     z-index: 0;
-    display: block;
+    display: flex;
     width:100%;
+    flex-direction: column;
     height: 1433.5px;;
     overflow-y: visible;
     overflow-x: hidden;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background: url('../images/AdobeStock_257851798.jpeg') no-repeat 50% 10%;
+    background: url('../images/lake.webp') no-repeat 50% 10%;
     background-size: 2548px 1433.5px ;
     
 }
@@ -38,4 +39,9 @@ h1.aboutHeading2 {
     z-index:3;
     text-align: center;
     opacity: .7;
+    margin-bottom: 3%;
+}
+
+.youtubeVid {
+  
 }

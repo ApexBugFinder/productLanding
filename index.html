@@ -27,15 +27,15 @@
       </div>
       <div id="nav-bar">
          <ul class="nav-list">
-             <li class="nav-link">Features</li>
-             <li class="nav-link">Buddha's Bazaar</li>
-             <li class="nav-link">About</li>
-             <li class="nav-link">Join</li>
+             <li class="nav-link"><a href="#main">Features</a></li>
+             <li class="nav-link"><a href="#BazaarSection">Buddha's Bazaar</a></li>
+             <li class="nav-link"><a href="#AboutSection">About</a></li>
+             <li class="nav-link" ><a href="#JoinSection">Join</a></li>
          </ul>
       </div>
     </header>
     <main id="main">
-        <section class="sectionFeatures">
+        <section id="FeaturesSection" class="sectionFeatures">
 
             <div class="featuresContent">
                 <div class="contentContainer cultivateContent ">
@@ -86,7 +86,7 @@
         <div class="divider">
 
         </div>
-        <section class="sectionBazaar">
+        <section id="BazaarSection" class="sectionBazaar">
             <div class="bazaar-header">
 
             </div>
@@ -197,7 +197,7 @@
                     <div class="product">
                         <div class="productContainer">
                             <div class="articleImg">
-                                <img src="./images/" alt="">
+                                <img src="./images/AdobeStock_132538938.jpeg" alt="">
                             </div>
                             
                             <div class="articleInfo">
@@ -236,15 +236,16 @@
             <img src="./images/SVG/svgHindu.svg" alt="" class="dividerSymbol">
            </div> 
         </div>
-        <section class="sectionAbout">
+        <section id="AboutSection" class="sectionAbout">
             <div class="sectionAboutContainer">
                 
                 <h1 class="aboutHeading1">
-                    Help Us Help You Find Yourself
+                    Help Us Help You Find Your Serenity
                 </h1>
                 <h1 class="aboutHeading2">
-                    Surrender To Your Serenity
+                    Surrender To Serenity
                 </h1>
+                <iframe class="youtubeVid"width="1280" height="720" src="https://www.youtube.com/embed/xn3ZL77LZUY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
             </div>
 
@@ -258,15 +259,43 @@
         
             </div>
         </div>
-            <section class="sectionJoinUs">
+        
+        <section id="JoinSection" class="sectionJoinUs">
             <div class="sectionJoinUsContainer">
-                
+                <h2 class="joinUsHeading">Subscribe and stay up to date on all your Serenity needs</h2>
+
+                <div class="inputandButton">
+                    <input type="text" class="emailInput" id="emailId" placeholder="Email Address">
+                    <button class="subscribeBtn">Subscribe</button>
+                </div>
             </div>
         </section>
+        <div class="divider">
+            <div class="imageContainer">
+             <!-- <img src="./images/SVG/svgWater.svg" alt="" class="dividerSymbol"> -->
+        
+            </div>
+        </div>
 
         
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="logo">
+            <div class="logoImg">
+              <img src="./images/SVG/logo.svg" alt="" id="header-img" />
+            </div>
+          </div>
+          <div class="footerInfo">
+            <div class="privacy">Privacy</div>
+            <div class="terms">
+                <p>Terms</p>
+                <p>Copyright@2021</p>
+            </div> 
+            <div class="contacts">Contacts</div>
+          </div>
+          
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>

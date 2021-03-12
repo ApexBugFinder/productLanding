@@ -50,6 +50,12 @@ h1 {
     margin-right: 15%;
     justify-self: flex-end;
 }
+#nav-bar .nav-link a {
+    text-decoration: none;
+}
+#nav-bar .nav-link a:hover {
+    color: var(--accentColor);
+}
 ul.nav-list {
     display:flex;
     flex-direction: row;
@@ -92,4 +98,34 @@ li.nav-link:hover {
     width:181px;
     height:181px;
     z-index: 3;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #707070;
+    justify-content: space-between;
+}
+footer .footerInfo {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    margin-right: 5%;
+    align-items: center;
+   
+}
+footer .terms {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-content: flex-end;
+}
+footer .logo {
+    
+    margin: 30px 2%;
+
+}
+footer .contacts {
+    margin-right: 2%;
 }
