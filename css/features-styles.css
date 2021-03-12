@@ -1,0 +1,115 @@
+:root {
+    --primaryColor: #262262;
+    --secondaryColor: #707070;
+    --accentColor: #E5B738;
+}
+.sectionFeatures {
+    background: url(../images/dock.jpeg) no-repeat 50% -1600px;
+    opacity: 70%;
+    margin: 0 auto;
+    height: 800px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 600px 100px 10px;
+    align-content: flex-end;
+    overflow-y: hidden;
+    grid-template-areas: 
+        "featureContent"
+        "banner"
+        "backGrnd"
+    ;
+ 
+    justify-content: center;
+    align-content: center;
+    row-gap: 10px;
+    z-index: 1;
+}
+
+.featuresContent {
+    z-index:2;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-areas: 
+     "cultivate"
+    "personalGrowth" 
+     "helpContent" 
+    ;
+    align-self: flex-end;
+    justify-items: center;
+    align-items: center;
+}
+.cultivateContent {
+    grid-area: cultivate;
+    z-index:1;
+    justify-items: center;
+    align-items: flex-start;
+}
+.cultivateContent .contentText {
+    margin-left: -30px;
+}
+.personalGrowthContent  {
+    z-index:1;
+    grid-area: personalGrowth;
+}
+.helpContent {
+    grid-area: helpContent;
+    z-index:1;
+    background-color: white;
+    margin:auto;
+    padding:auto;
+    border:white solid 2px;
+    border-radius: 10px;
+}
+
+.contentContainer {
+    display:flex;
+    width: 450px;
+    align-items: flex-start;
+    justify-items: flex-start;
+    background-color: white;
+    margin:auto;
+    padding:auto;
+    border:white solid 2px;
+    border-radius: 10px;
+
+}
+.contentIconContainer {
+    
+    z-index:2;
+}
+.contentIcon {
+    width: 40px;
+    margin: auto;
+     z-index:2;
+}
+.contentText {
+    font-family: felt-tip-roman, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    width: auto;
+    font-size: 24px;
+    margin:auto;
+    color: var(--primaryColor);
+    /* grid-area: iconText; */
+    z-index:2;
+}
+
+.bannerArea {
+    grid-area: banner;
+    background-color: var(--primaryColor);
+    color:white;
+    font-family: felt-tip-roman;
+    margin:auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    /* opacity: 65%; */
+    opacity: unset;
+    z-index: 2;
+    
+}

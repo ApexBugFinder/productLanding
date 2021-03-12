@@ -1,0 +1,41 @@
+.sectionAbout {
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display:flex;
+    height:1433px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* grid-template-columns: 1920px;
+    grid-template-rows: 1433.5px;
+    grid-template-areas: "backgroundArea"; */
+}
+.sectionAboutContainer {
+    z-index: 0;
+    display: block;
+    width:100%;
+    height: 1433.5px;;
+    overflow-y: visible;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/AdobeStock_257851798.jpeg') no-repeat 50% 10%;
+    background-size: 2548px 1433.5px ;
+    
+}
+
+
+h1.aboutHeading1{
+    z-index:3;
+    margin-top: 10%;
+    text-align: center;
+    opacity: 1;
+    /* align-self: center;
+    justify-content: center; */
+}
+h1.aboutHeading2 {
+    z-index:3;
+    text-align: center;
+    opacity: .7;
+}
