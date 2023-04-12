@@ -1,7 +1,7 @@
 # Buddha's Bazaar
 
 ## Project Description:
-Build a product Landing Page for a store.  
+Build a product Landing Page for an online store.  
 
 ## Project Requirements:
 
