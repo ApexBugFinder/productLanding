@@ -3,11 +3,14 @@ Build a product Landing Page
 
 Project Requirements:
 
-1#	Must have a \<header> element with corresponding id="header" \n
+1#	Must have a \<header> element with corresponding id="header"
+
 2#	I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
-3#	Must have a <nav> element with corresponding id="nav-bar" within the <header> element
-4#    	I can see at least three clicable elements insdie the nav element, each with a class .nav-link
-5#  	When I click on the .nav-link button in the nav element, I am taken to the corresponding section of the landing page
+
+3#	Must have a \<nav> element with corresponding id="nav-bar" within the \<header> element
+
+4#  I can see at least three clicable elements insdie the nav element, each with a class .nav-link
+5#  When I click on the .nav-link button in the nav element, I am taken to the corresponding section of the landing page
 
 6#	I can watch an embedded product video with id="video".
 7#	My landing page has a form element with a corresponding id="form"
