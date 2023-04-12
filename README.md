@@ -3,7 +3,7 @@ Build a product Landing Page
 
 Project Requirements:
 
-1#	Must have a \<header> element with corresponding id="header"
+1#	Must have a \<header> element with corresponding id="header" \n
 2#	I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
 3#	Must have a <nav> element with corresponding id="nav-bar" within the <header> element
 4#    	I can see at least three clicable elements insdie the nav element, each with a class .nav-link
