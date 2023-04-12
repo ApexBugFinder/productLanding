@@ -1,7 +1,8 @@
 # Buddha's Bazaar
 
-## Project Description:
-Build a product Landing Page for an online store.  
+## Project Description: 
+Build a product Landing Page for an online store.  This store specializes in good vibes and can be viewed at <a href="http://198.211.29.93:8082/" target="_blank">Buddha's Bazaar</a>
+
 
 ## Project Requirements:
 
