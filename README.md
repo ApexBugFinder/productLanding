@@ -36,5 +36,9 @@ Build a product Landing Page for an online store.  This store specializes in goo
 
 15.	My product landing page should utilize CSS flexbox at least once.
 
+## Project Improvements Needed
 
+1. Reduce image sizes
+
+2. Create small backend api and serve products from backend
 
